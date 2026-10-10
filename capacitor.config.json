@@ -1,0 +1,21 @@
+{
+  "appId": "com.fayez.os",
+  "appName": "Fayez OS",
+  "webDir": "native/www",
+  "server": {
+    "hostname": "app.fayez.invalid",
+    "androidScheme": "https",
+    "errorPath": "unsupported.html"
+  },
+  "android": {
+    "allowMixedContent": false,
+    "backgroundColor": "#101e20",
+    "webContentsDebuggingEnabled": false,
+    "minWebViewVersion": 120
+  },
+  "plugins": {
+    "CapacitorHttp": {
+      "enabled": false
+    }
+  }
+}
